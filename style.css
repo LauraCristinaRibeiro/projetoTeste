@@ -1,0 +1,18 @@
+body{
+    background-color: dodgerblue;
+}
+a{
+    background-color: cornsilk;
+    color: dodgerblue;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+.texto{
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}

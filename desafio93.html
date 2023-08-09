@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="exemplo03.html">Teste</a>
+        </nav>
+    </header>
+    <h1 class="titulo">Desafio HTML, CSS, JavaScript</h1>
+    <script>
+        /*
+        Desafio:
+        Construir uma página web, que receba o nome 
+        e a idade da pessoa, verifique se é maior
+        de idade ou não.
+        E exiba dentro da página a mensagem informando:
+        nome, idade e se é ou não maior de idade.
+        Faça uma página elegante utilizando html, css e JS.
+        */
+        
+        var nome = window.prompt("Digite um nome: ");
+        var idade = Number.parseInt(window.prompt("Digite sua idade: "));
+        if(idade >= 18){
+            var verificaId = "maior de idade";
+        }else{
+            verificaId = "menor de idade";
+        }
+        document.write("<p class='texto'> Olá "+ nome + "! Sua idade é: " + idade + "</p>");
+        document.write("<br>");
+        document.write("<p class='texto'> Você é " + verificaId + "!</p>")
+        </script>
+</body>
+</html>
+
